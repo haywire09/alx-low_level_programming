@@ -22,4 +22,4 @@ int main(void)
 	printf("size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
-^C
+
