@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <stdid.h>
+#include <stdlib.h>
 
 /**
  *
  * Description:  prints all possible combinations of two two-digit numbers
  *
- *
+ * Return: return 0 at the end
  */
 int main(void)
 {
@@ -22,9 +22,9 @@ putchar((n1 / 10) + 48);
 putchar((n1 % 10) + 48);
 putchar(' ');
 putchar((n2 / 10) + 48);
-putchat((n2 % 10) + 48);
+putchar((n2 % 10) + 48);
 
-if (n1 != 98 | | n2 != 98)
+if (n1 != 98 || n2 != 98)
 {
 putchar(',');
 putchar(' ');
@@ -35,5 +35,5 @@ putchar(' ');
 ++n1;
 }
 putchar('\n');
-return: 0;
+return (0);
 }
