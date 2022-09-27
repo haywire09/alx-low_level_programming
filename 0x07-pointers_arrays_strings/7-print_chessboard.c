@@ -1,9 +1,3 @@
-/**
- * File: 7-print_chessboard.c
- * Auth: ayo
- */
-
-
 #include "main.h"
 
 /**

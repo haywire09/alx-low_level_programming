@@ -1,14 +1,10 @@
-/**
- * file - 2-strchr.c
- * Auth: learner ayokunle
- */
-
 #include "main.h"
 
 /**
- * @s: The string to be searched.
+ * _strchr - locates a character in a string
+ * @s: the string to be check
  * @c: The character to be located.
- * 
+ *
  * Return: If c is found - a pointer to the first occurence.
  * If c is not found - NULL.
  */
@@ -22,5 +18,5 @@ for (index = 0; s[index] >= '\0'; index++)
 if (s[index] == c)
 return (s + index);
 }
-return ('\0');
+return (s);
 }

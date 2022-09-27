@@ -1,8 +1,3 @@
-/**
- * file - 4-strpbrk.c
- * Auth: fagbuyi ayokunle
- */
-
 #include "main.h"
 
 /**
