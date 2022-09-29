@@ -43,12 +43,12 @@ check(s, start + 1, end - 1, flag);
  */
 int _strlen_recursion(char *s)
 {
-int sum = 0
+int sum = 0;
 
-if (*s != '0\')
+if (*s != '\0')
 {
 sum++;
-sum+= _strlen_recursion(s + 1);
+sum += _strlen_recursion(s + 1);
 }
 return (sum);
 }
