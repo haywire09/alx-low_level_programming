@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * create_array - create an array of chars and
@@ -9,7 +9,8 @@
  * pointer to array if everything is normal.
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
+
 {
 char *array;
 unsigned int index;
