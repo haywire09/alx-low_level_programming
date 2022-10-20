@@ -20,5 +20,4 @@ free(current->str);
 free(current);
 current = next;
 }
-
 }
