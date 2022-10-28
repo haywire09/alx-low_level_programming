@@ -7,6 +7,7 @@
  *
  * Return: 1 if string is valid, 0 otherwise
  */
+
 int check_valid_string(const char *b)
 {
 if (b == NULL)
@@ -27,6 +28,7 @@ return (1);
  *
  * Return: the converted value
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int decimal = 0;
